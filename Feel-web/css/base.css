@@ -1,0 +1,19 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+                        font-family:"Microsoft YaHei UI"}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:14px;
+	color:#333;
+	/*text-shadow:1px 1px 1px #fff;*/
+	overflow-x:hidden;
+}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.clearfix{*zoom:1}
+.fl{float:left}
+.fr{float:right}
+.fl,.fr{_display:inline}
+a{ color:#000; text-decoration:none;}
+.active{ text-decoration:none;background-color:#C7FAFC; color:#06F;}

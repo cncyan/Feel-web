@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>最美的我们</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/common.css">
+<link type="text/css" rel="stylesheet" href="css/pstyle.css">
+</head>
+
+<body>
+<div class="ctop">
+   <div class="ctnav">
+        <div class="fl ctnul">
+            <ul class="nav nav-tabs nav-ul">
+                <li><a href="index.html" class="nv"><b>首页&nbsp;&nbsp; </b></a></li>
+                <li><a href="parents.html" class="nv active"><b>最真的亲&nbsp;</b></a></li>
+                <li><a href="friends.html" class="nv"><b>最挚的友&nbsp;</b></a></li>
+                <li><a href="love.html" class="nv"><b>最爱的他&nbsp;</b></a></li>
+            </ul>
+        </div>
+        <div class="fr ctbtn">
+             <ul class="nav nav-tabs nav-ul">
+                <li><a href="login.html" class="nv"><b>登陆 </b></a></li>
+                <li><a href="register.html" class="nv"><b>注册</b></a></li>
+             </ul>
+        </div>
+   </div>
+</div>
+<div class="ccon">
+      <div class="fl plcon">
+         <div class="plvedio">
+          <video id="myvedio" src="images/2.mp4" width="500" height="400px" autoplay controls>
+              您的浏览器不支持 video 标签。
+            </video>
+	     </div>
+         <div class="pmessage"> 
+                <h3>感动瞬间</h3>
+                <div class="fl pmcate">
+                    <a href="javascript:void(0);" onclick="vedio(1)"><img src="images/1.jpg"><p>最深的情最真的爱</p></a>
+                    
+                </div>
+                <div class="fl pmcate">
+                   <a href="javascript:void(0);" onclick="vedio(2)"><img src="images/2.jpg"><p>最深的情最真的爱</p></a>
+                </div>
+                <div class="fl pmcate">
+                   <a href="javascript:void(0);" onclick="vedio(3)"><img src="images/3.jpg"><p>最深的情最真的爱</p></a>
+                </div>
+                <div class="fl pmcate">
+                   <a href="javascript:void(0);" onclick="vedio(4)"><img src="images/2.jpg"><p>最深的情最真的爱</p></a>
+                </div>  <div class="fl pmcate">
+                   <a href="javascript:void(0);" onclick="vedio(5)"><img src="images/2.jpg"><p>最深的情最真的爱</p></a>
+                </div>      
+         </div>
+      </div>
+   <div class="fr prcon">
+       <div class="pmhot">
+                  <h3>疼你的<span>他们</span></h3>
+                  <ul>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                    <li><a href="#">他们是你的第你最强大后一任老师</a></li>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                  </ul>
+        </div>
+        <div class="pmtop">
+                  <h3><span>温馨</span>一刻</h3>
+                  <ul>
+                      <li><a href="#">父母是你最强大后盾你最强大后</a></li>
+                      <li><a href="#">父母是你最强大后盾</a></li>
+                      <li><a href="#">父母是你最强大你最强大后后盾</a></li>
+                      <li><a href="#">父母是你最强大后盾</a></li>
+                      <li><a href="#">父母是你最强大后盾</a></li>
+                  </ul>
+         </div>
+          <div class="pmhot">
+                  <h3><span>最新</span>动态</h3>
+                  <ul>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                    <li><a href="#">他们是你的第一你最强大后任老师</a></li>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                    <li><a href="#">他们是你的第一你最强大后任老师</a></li>
+                    <li><a href="#">他们是你的第一任老师</a></li>
+                  </ul>
+        </div>      
+    </div>
+    <div class="fl fciessay">
+                 <h3>至亲*小说</h3>
+                 <div>
+                      <p>《亲友情》      ............作者：<span>八月长安</span></p>
+                      <iframe src="xiaoshu.html" class="fciframe"></iframe>
+                 </div>
+</div>
+<div class="cfooter">
+     <p>Design by Cyan <a href="#" target="_blank">豫ICP备11002373号-1</a> <a href="/">网站统计</a></p>
+</div>
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script>
+function vedio(i){
+	$("#myvedio").attr("src","images/"+i+".mp4");
+	}
+</script>
+</body>
+</html>

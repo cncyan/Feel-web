@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+
+.pnow{ display:none;}
+.pmenu{ margin-bottom:10px;}
+.pmenu ul{ height:25px; margin-top:5px;}
+.pmenu ul li{ display:inline; color:#666; cursor:pointer; padding:2px 2px 2px 2px; text-align:center; width:80px; box-shadow:0 3px 3px #6600CC;
+-webkit-box-shadow:0 3px 3px #6600CC;-moz-box-shadow:0 3px 3px #6600CC; font-weight:bolder;}
+.pmenu ul li:hover{color:#00C;}
+.select{ color:#009;}
+.pcontent{ width:98%; margin:auto; text-indent:2em; font-size:13px; line-height:20px;}
+.pcontent p{ font-weight:bolder; font-size:14px; color:#666;}
+.pcontent p span{ color:#999;;}
+.pmenu .select{ color:#009;}
+</style>
+</head>
+
+<body>
+<div class="fl fciessay">
+                   <div class="pcontent">
+                      <div>“爷爷，最近我的朋友都在晒长辈的老照片，我也想晒晒您以前的照片。”禹小云一进入禹夕实的房间，就提出了这样的要求。
+                     “好啊，我去拿给你。”禹夕实对这个小孙子着实的喜欢，基本上任何的要求都会答应他。嘴里说着已经向旁边的书柜走去，在书柜里面认真的翻找起来。
+                     “爷爷，听说您年轻的时候是个小鲜肉。追你的女生一定不少吧。”禹小云看着带着老花镜翻找相册的禹夕实，说道
+                    泛 
+                     </div>
+                      <div class="pnow">我是个“旱鸭子”，每次和一群小伙伴们去河边或池塘边玩耍，晒晒您以前的照片。”禹小云求。
+                     “好啊，我去拿给你。”禹夕实对这个小孙子着实的喜欢，基本上任何的要求都会答应他。嘴里说着已经向旁边的书柜走去，在书柜里面认真的翻找起来。
+                     ，在这里。”禹夕实从书柜中抽出一本泛 黄的本子，用手轻轻的掸了一下，转身慢慢的折回，把本子交给禹小云，轻轻的坐回太师椅。轻的坐回太师椅。</div>
+                      <div class="pnow">阳光仍然酷热，陕坝街上到处灰蒙蒙的。 在匆想晒晒您以前的照片。”禹小云一进入禹夕实的房间，就提出了这样的要求。
+                     “好啊，我去拿给你。”禹夕实对这个。”禹小云一进入禹夕实的房间，就提出了这样的要求。
+                    书柜中抽出一本泛 黄的本子，用手轻轻的掸了一下，转身慢慢的折回，把本子交给禹小云，轻轻的坐回太师椅。，轻轻的坐回太师椅。</div>
+                      <div class="pnow">叶蓬头垢面，邋里邋遢，走路跟蜗牛一样缓慢，仿佛驮着晒晒您以前的照片。”禹小云一进入禹夕实的房间，就提出了这样的要求。辈的老照片，我也想晒晒您以前的照片。”禹小云一进入禹夕实的房间，就提出了这样的要求。
+                    黄的本子，用手轻轻的掸了一下，转身慢慢的折回，把本子交给禹小云，轻轻的坐回太师椅。云，轻轻的坐回太师椅。</div>
+                      <div class="pnow">外甥女来我家串门，见到我后，小姑娘神秘又调皮地说您以前的照片。”禹小云一进入禹夕实的房间，就提出了这样的要求。
+                     “好啊，我去拿给你。”禹夕实对这个小孙子着实的喜欢，基本上任何的要求都会答应他。嘴里说着已经向旁边的书柜走样的要求。
+                      黄的本子，用手轻轻的掸了一下，转身慢慢的折回，把本子交给禹小云，轻轻的坐回太师椅。云，轻轻的坐回太师椅。</div>
+                      <div class="pnow">“爷爷，最近我的朋友都在晒长辈的老照片，我也想晒晒您以前的照片。”禹小云一进入禹夕实的房间，就提出了这样的要求。
+                     “好啊，我去拿给你。”禹夕实对这个小孙子着实的喜欢，基本上任何的要求都会答应他。嘴里说着已经向旁边的书柜走去，在书柜里面认真的翻找起来。
+                    本子交给禹“爷爷，最近我的朋友，转身慢慢的折回，把本子交给禹小云，轻轻的坐回太师椅。小云，轻轻的坐回太师椅。</div>
+                   </div>
+                   <div class="pmenu" id="a">
+                      <ul>
+                         <li class="select">&nbsp;&nbsp;1,爷爷&nbsp;&nbsp;</li>
+                         <li>2,那日阳光</li>
+                         <li>3,池塘的爱</li>
+                         <li>4,说好的事</li>
+                         <li>5,学会道歉</li>
+                         <li>6,新生活</li>
+                      </ul>
+                   </div>
+</div>
+<hr>        
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script>
+$(function(){
+    var lilist=$("#a ul li");
+    lilist.click(function(){
+	$(this).addClass("select").siblings().removeClass("select");
+	var idx=lilist.index(this);
+	$("div.pcontent>div").eq(idx).show().siblings().hide();
+	});
+});
+
+</script>
+</html>
